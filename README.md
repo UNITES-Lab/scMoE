@@ -21,7 +21,7 @@ conda activate scmoe
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia -y
 conda install nvidia::cudatoolkit conda-forge::cudatoolkit-dev -y
 conda install -c conda-forge gxx=10.4 -y
-export LD_LIBRARY_PATH=/path_to_anaconda3/flex-moe/lib:$LD_LIBRARY_PATH
+export LD_LIBRARY_PATH=/path_to_anaconda3/scmoe/lib:$LD_LIBRARY_PATH
 export CUDA_HOME=/path_to_anaconda3/envs/scmoe
 cd src/network
 git clone https://github.com/laekov/fastmoe.git 

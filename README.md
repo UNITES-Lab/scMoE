@@ -1,4 +1,4 @@
-# scMoE: Modeling Arbitrary Modality Combination via the Flexible Mixture-of-Experts
+# scMoE: single-cell Multi-Modal Multi-Task Learning via Sparse Mixture-of-Experts
 
 Official implementation for preprint "scMoE: single-cell Multi-Modal Multi-Task Learning via Sparse Mixture-of-Experts".  
 
